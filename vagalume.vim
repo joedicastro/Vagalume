@@ -8,13 +8,14 @@
 "
 "===============================================================================
 " Vagalume is the galician word for Firefly, and fireflies highlight in the
-" night with his ass, is not that so awesome? 
+" night with his ass, is not that so awesome?
 "===============================================================================
 " Author: joe di castro (joe@joedicastro.com) <http://joedicastro.com/>
 " Last Change: 16-07-2013
 " Repository: http://github.com/joedicastro/Vagalume
 "===============================================================================
 
+" Mechanics
 " Reset Syntax Highlighting {{{
 
 hi clear
@@ -23,31 +24,27 @@ if exists("syntax_on")
 endif
 
 " }}}
-
 " Only for GUI and 256 colors terminals {{{
 
-if !has("gui_running") && &t_Co < 256 
+if !has("gui_running") && &t_Co < 256
     finish
 endif
 
 " }}}
-
 " Let's get a name! {{{
 
 let colors_name = "vagalume"
 
 " }}}
-
 " Palette {{{
 
 let s:palette = {}
 
 let s:palette.pureblack =   ['#000000', 16]
-let s:palette.black     =   ['#000000', 231]
+let s:palette.black     =   ['#080808', 232]
 let s:palette.white     =   ['#C0C0C0', 7]
 
 " }}}
-
 " Define theme colors by background {{{
 
 let s:colors = {}
@@ -63,7 +60,6 @@ else
 endif
 
 " }}}
-
 " Highlighting function {{{
 
 function! s:Highlight(group, fg, bg, style, curl)
@@ -79,7 +75,8 @@ endfunction
 
 " }}}
 
-" Colors {{{
+" ColorScheme
+" Vanilla Vim {{{
 
 call s:Highlight('vimLineComment', 'foreground', 'background', 'bold', '')
 
