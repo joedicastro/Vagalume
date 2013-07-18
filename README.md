@@ -12,13 +12,23 @@ in the warm days. Almost it was the idea!
 
 > Also the theme was inspired by some great previous projects:
 
-> - [Hemisu](https://github.com/noahfrederick/Hemisu) by Noah Frederick
-> - [Harlequin](https://github.com/nielsmadan/harlequin) by Niels Madan
-> - [Badwolf](https://github.com/sjl/badwolf) by Steve Losh
-> - [Molokai](https://github.com/tomasr/molokai) by Tomas Restrepo
-> - [GitHub](http://www.vim.org/scripts/script.php?script_id=2855) by Anthony Carapetis
-> - [Summerfruit256](http://www.vim.org/scripts/script.php?script_id=2577) by Martin Baeuml
-> - [Louver](http://www.vim.org/scripts/script.php?script_id=2360) by Kojo Sugita
+> - [Hemisu][hms] by Noah Frederick
+> - [Harlequin][hlq] by Niels Madan
+> - [Badwolf][bwf] by Steve Losh
+> - [Molokai][mki] by Tomas Restrepo
+> - [GitHub][ghb] by Anthony Carapetis
+> - [Summerfruit256][sft] by Martin Baeuml
+> - [Louver][lvr] by Kojo Sugita
+> - [Solarized][slr] by Ethan Schoonover
+
+  [hms]: https://github.com/noahfrederick/Hemisu
+  [hlq]: https://github.com/nielsmadan/harlequin
+  [bwf]: https://github.com/sjl/badwolf
+  [mki]: https://github.com/tomasr/molokai
+  [ghb]: http://www.vim.org/scripts/script.php?script_id=2855
+  [sft]: http://www.vim.org/scripts/script.php?script_id=2577
+  [lvr]: http://www.vim.org/scripts/script.php?script_id=2360
+  [slr]: https://github.com/altercation/vim-colors-solarized
 
 # This is still a project, work in progress!
 
@@ -135,22 +145,22 @@ please post a comment in it with before/after screenshots! Thanks!
 
 ## Progression
 
-- [X] Get bored of alternatives colorschemes!
-- [X] Get crazy and start a new one...
-- [X] Find a name not already used
-- [X] Create a repo
-- [X] Choose a License (MIT)
-- [X] Draw by hand some sketches for the logo
-- [X] Create a vectorial logo with Inkscape
-- [X] Create a not so boring README
-- [X] Understand how Vim highlighting works!
-- [X] Take two decisions: 
-  - [X] Only GUI and 256 terminal colors will be supported (for my sanity)
-  - [X] Make a theme with dual mode for light & dark backgrounds
-- [X] Create the colorscheme file
-- [X] Create the essential mechanics to define the palette and the colors for
+- [x] Get bored of alternatives colorschemes!
+- [x] Get crazy and start a new one...
+- [x] Find a name not already used
+- [x] Create a repo
+- [x] Choose a License (MIT)
+- [x] Draw by hand some sketches for the logo
+- [x] Create a vectorial logo with Inkscape
+- [x] Create a not so boring README
+- [x] Understand how Vim highlighting works!
+- [x] Take two decisions: 
+  - [x] Only GUI and 256 terminal colors will be supported (for my sanity)
+  - [x] Make a theme with dual mode for light & dark backgrounds
+- [x] Create the colorscheme file
+- [x] Create the essential mechanics to define the palette and the colors for
   the two modes
-- [X] Create a function to easy define groups for both modes
+- [x] Create a function to easy define groups for both modes
 - [ ] Create a palette
 - [ ] Create the dark mode first:
     - [ ] Create the essential vim UI groups
@@ -169,5 +179,5 @@ please post a comment in it with before/after screenshots! Thanks!
 - [ ] Take a quality revision
 - [ ] Try to not get crazy in the middle
 - [ ] Find the Meaning of Life and a better answer for All than `42` 
-- [ ] <strike>Become a fucking Billionare!</strike> Girls, booze and cars all
+- [ ] <del>Become a fucking Billionare!</del> Girls, booze and cars all
   the time? Noh, what a cliché, where is the fun? :smile:
