@@ -1,7 +1,5 @@
 ![logo](./logo/logo.png "logo")
 
-- - - - -
-
 Vagalume is the galician word for Firefly, and fireflies highlight in the
 night with his ass, is not that so awesome? If you catch them in a jar, you have
 an amazing and natural glowing lamp.
@@ -22,6 +20,8 @@ in the warm days. Almost it was the idea!
 > - [Solarized][slr] by Ethan Schoonover
 > - [Jellybeans][jlb] by Nanotech
 > - [Vividchalk][vck] by Tim Pope
+> - [Base16][b16] by Chris Kempson
+> - [Mustang][mtg] by Henrique C. Alves
 
   [hms]: https://github.com/noahfrederick/Hemisu
   [hlq]: https://github.com/nielsmadan/harlequin
@@ -32,7 +32,10 @@ in the warm days. Almost it was the idea!
   [lvr]: http://www.vim.org/scripts/script.php?script_id=2360
   [slr]: https://github.com/altercation/vim-colors-solarized
   [jlb]: https://github.com/nanotech/jellybeans.vim
-  [vkc]: https://github.com/tpope/vim-vividchalk
+  [vck]: https://github.com/tpope/vim-vividchalk
+  [b16]: https://github.com/chriskempson/base16-vim
+  [mtg]: http://hcalves.deviantart.com/art/Mustang-Vim-Colorscheme-98974484
+
 
 # This is still a project, work in progress!
 
@@ -158,7 +161,7 @@ please post a comment in it with before/after screenshots! Thanks!
 - [x] Create a vectorial logo with Inkscape
 - [x] Create a not so boring README
 - [x] Understand how Vim highlighting works!
-- [x] Take two decisions: 
+- [x] Take two decisions:
   - [x] Only GUI and 256 terminal colors will be supported (for my sanity)
   - [x] Make a theme with dual mode for light & dark backgrounds
 - [x] Create the colorscheme file
@@ -176,12 +179,12 @@ please post a comment in it with before/after screenshots! Thanks!
     - [ ] Create the diffvim groups
     - [ ] Create the first plugin groups: Fugitive
     - [ ] Create the rest of the plugin groups:
-        - [ ] Unite 
-        - [ ] ... 
-- [ ] Create the light mode 
+        - [ ] Unite
+        - [ ] ...
+- [ ] Create the light mode
 - [ ] Try to be consistent, simple and elegant without forget pragmatic
 - [ ] Take a quality revision
 - [ ] Try to not get crazy in the middle
-- [ ] Find the Meaning of Life and a better answer for All than `42` 
+- [ ] Find the Meaning of Life and a better answer for All than `42`
 - [ ] <del>Become a fucking Billionare!</del> Girls, booze and cars all
   the time? Noh, what a cliché, where is the fun? :smile:
