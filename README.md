@@ -20,6 +20,8 @@ in the warm days. Almost it was the idea!
 > - [Summerfruit256][sft] by Martin Baeuml
 > - [Louver][lvr] by Kojo Sugita
 > - [Solarized][slr] by Ethan Schoonover
+> - [Jellybeans][jlb] by Nanotech
+> - [Vividchalk][vck] by Tim Pope
 
   [hms]: https://github.com/noahfrederick/Hemisu
   [hlq]: https://github.com/nielsmadan/harlequin
@@ -29,6 +31,8 @@ in the warm days. Almost it was the idea!
   [sft]: http://www.vim.org/scripts/script.php?script_id=2577
   [lvr]: http://www.vim.org/scripts/script.php?script_id=2360
   [slr]: https://github.com/altercation/vim-colors-solarized
+  [jlb]: https://github.com/nanotech/jellybeans.vim
+  [vkc]: https://github.com/tpope/vim-vividchalk
 
 # This is still a project, work in progress!
 
