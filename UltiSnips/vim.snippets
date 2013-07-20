@@ -1,0 +1,12 @@
+################################################################################
+#                              Vagalume Snippets                               #
+################################################################################
+
+extends vim
+
+# Highlight a group
+snippet hl "Highlight a group"
+call s:Highlight('${1:group}', '${2:foreground}', '${3:background}', '${4}', '${5}')
+$0
+endsnippet
+
