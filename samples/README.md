@@ -1,3 +1,8 @@
+These are sample files for each filetype supported by the theme, to test how it
+looks under real circunstances. 
+
+LICENSE:
+
 For all the files in this folder, All rights belong to their respective authors
 under their respective Licenses.
 
