@@ -10,3 +10,14 @@ call s:Highlight('${1:group}', '${2:foreground}', '${3:background}', '${4}', '${
 $0
 endsnippet
 
+# Add a color to the palette
+snippet col "A new palette color"
+let s:palette.${1:color}    =   ['#${2:gui color}', ${3:cterm color}]
+$0
+endsnippet
+
+# Associate a color with a mode
+snippet colm "A new color for a mode"
+    let s:colors.${1:mode color} = s:palette.${2:palette color}
+$0
+endsnippet
