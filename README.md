@@ -81,8 +81,9 @@ I intend to support the syntax highlighting for these filetypes:
 
 ## Installation
 
-Just stick vagalume.vim in your `colors/` directory, or use your favorite plugin
-manager to install it (NeoBundle, Vundle, pathogen, ...)
+Just stick `colors/vagalume.vim` in your `colors/` directory, or use your
+favorite plugin manager to install it (NeoBundle, Vundle, pathogen, ...) and
+enjoy the extras!
 
 ## Usage
 
@@ -105,23 +106,6 @@ if has("gui_running") && &t_Co >= 256
 endif
 ```
 
-And probably you should use a mapping to a function to do this more easy and
-pleasant. You could put something like this in your `.vimrc` file:
-
-
-```VimL
-function! s:SwitchBackground()
-    if &background == 'dark'
-        set background=light
-    elseif &background == 'light'
-        set background=dark
-    endif
-endfunction
-
-command! ToggleBackground call <SID>SwitchBackground()
-nnoremap <silent><Leader>B :ToggleBackground<CR>
-```
-
 ### In the terminal
 
 To show properly the 256 colors in terminal Vim, you should add this:
@@ -134,6 +118,21 @@ And, of course, use a terminal with 256-colors support and a right `$TERM`
 environment variable (something like `xterm-256color` or `screen-256color` under
 Tmux)
 
+## Commands
+
+This theme provides several commands to help tweak it without pain. These
+commands are no mapped by default and the functions behind them are not loaded
+until you execute this commands. So, is your decision use them or not.
+
+- `:ToggleBackground` this command toggle the background for you, so you don't
+  have to use those commands showed above. And probably you should use a mapping
+  to do this more easy and pleasant. 
+
+- `:ShowSyntaxStack` this reveals the syntax groups under the current cursor
+  position
+
+- `:ShowHighlightingGroups` this command shows the current highlighting
+  settings, useful for tests
 
 ## Screenshots
 
