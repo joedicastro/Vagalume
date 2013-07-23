@@ -122,7 +122,7 @@ Tmux)
 
 This theme provides several commands to help tweak it without pain. These
 commands are no mapped by default and the functions behind them are not loaded
-until you execute this commands. So, is your decision use them or not.
+until you execute this commands. So, is your decision to use them or not.
 
 - `:ToggleBackground` this command toggle the background for you, so you don't
   have to use those commands showed above. And probably you should use a mapping

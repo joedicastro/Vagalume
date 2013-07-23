@@ -1,0 +1,175 @@
+*vagalume.txt* a dual mode colorscheme
+
+                                           _                                   ~
+                   __   ____ _  __ _  __ _| |_   _ _ __ ___   ___              ~
+                   \ \ / / _` |/ _` |/ _` | | | | | '_ ` _ \ / _ \             ~
+                    \ V / (_| | (_| | (_| | | |_| | | | | | |  __/             ~
+                     \_/ \__,_|\__, |\__,_|_|\__,_|_| |_| |_|\___|             ~
+                               |___/                                           ~
+
+Version: 0.1
+Author : joe di castro <joe@joedicastro.com>
+License: MIT license  {{{
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+    The above copyright notice and this permission notice shall be included
+    in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+    CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+    TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+    SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+}}}
+
+==============================================================================
+CONTENTS                                                    *vagalume-contents*
+
+Introduction .....................................  |vagalume-introduction|
+Features .........................................  |vagalume-features|
+Supported filetypes ..............................  |vagalume-filetypes|
+Installation .....................................  |vagalume-installation|
+Usage ............................................  |vagalume-usage|
+  In the terminal ................................  |vagalume-terminal|
+  Commands .......................................  |vagalume-functions|
+Contributions ....................................  |vagalume-contributions|
+
+==============================================================================
+INTRODUCTION                                                    *introduction*
+
+Vagalume is the galician word for Firefly, and fireflies highlight in the
+night with his ass, is not that so awesome? If you catch them in a jar, you
+have an amazing and natural glowing lamp.
+
+Well, is not that natural and it is not a jar, but I tried to catch the spirit
+of the fireflies and use it to highlight your code in the cold nights and glow
+it in the warm days. Almost it was the idea!
+
+==============================================================================
+FEATURES                                                    *vagalume-features*
+
+- Dual mode: one for the warm days (light theme) & one for the cold nights
+  (dark theme)
+
+- Made to work with GUIs (gui) and 256 color terminals (cterm)
+
+- Provides a consistent style for the Vim interface (UI), the syntax for some
+  filetypes and various plugins
+
+==============================================================================
+SUPPORTED FILETYPES                                        *vagalume-filetypes*
+
+I intend to support the syntax highlighting for these filetypes:
+
+    Python
+    Django / Jinja
+    Markdown
+    Javascript & JSON
+    HTML
+    CSS
+    Ruby
+    C
+    Lua
+    Haskell
+    Vimscript
+    Vim help
+    Clojure
+    Git (commits, logs, diffs, ...)
+    bash
+    crontab
+    Scala
+    XML
+
+    PHP
+
+    and probably more...
+
+==============================================================================
+INSTALLATION                                            *vagalume-installation*
+
+Just stick colors/vagalume.vim in your colors/ directory, or use your favorite
+plugin manager to install it (NeoBundle, Vundle, pathogen, ...) and enjoy the
+extras!
+
+==============================================================================
+USAGE                                                          *vagalume-usage*
+
+To toggle the dark and light mode of the theme you have to set the background
+in Vim with one of these commands:
+
+>
+
+    :set background=dark    "for the dark mode
+    :set background=light   "for the light mode
+
+<
+
+At the same time you can set your favorite mode and this theme by default in
+your .vimrc file:
+
+>
+    if has("gui_running") && &t_Co >= 256
+        syntax on
+        set bg=dark         " or the light mode if you want
+        colorscheme vagalume
+    endif
+<
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  IN THE TERMINAL                                           *vagalume-terminal*
+
+
+To show properly the 256 colors in terminal Vim, you should add this:
+
+>
+    set t_Co=256
+<
+
+And, of course, use a terminal with 256-colors support and a right $TERM
+environment variable (something like xterm-256color or screen-256color under
+Tmux)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  COMMANDS                                                 *vagalume-functions*
+
+This theme provides several commands to help tweak it without pain. These
+commands are no mapped by default and the functions behind them are not loaded
+until you execute this commands. So, is your decision use them or not.
+
+    :ToggleBackground this command toggle the background for you, so you don't
+    have to use those commands showed above. And probably you should use a
+    mapping to do this more easy and pleasant.
+
+    :ShowSyntaxStack this reveals the syntax groups under the current cursor
+    position
+
+    :ShowHighlightingGroups this command shows the current highlighting
+    settings, useful for tests
+
+==============================================================================
+CONTRIBUTIONS                                          *vagalume-contributions*
+
+Contributions are very welcome! But you have to understand that not all of
+them would be accepted, a colorscheme is something so subjetive and personal
+that if I wouldn't be unsatisfied with the other zillion alternatives, you can
+be sure that I didn't spend so fucking time in doing another one by myself.
+Fortunately, we don't all have the same taste.
+
+And please, if you're going to send a pull request that you want me to merge,
+please post a comment in it with before/after screenshots! Thanks!
+
+
+
+
+ vim:tw=78:et:ft=help:norl:
+
+
+
+
